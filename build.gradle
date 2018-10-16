@@ -12,7 +12,7 @@ apply plugin: 'com.android.library'
 
 ext {
     GROUP = 'com.egeio.preview'
-    VERSION = '1.0.2-SNAPSHOT'
+    VERSION = '1.0.3-SNAPSHOT'
     TEST = false
 
     TEST_REPO = '../repo'
@@ -31,7 +31,7 @@ android {
     buildToolsVersion "25.0.3"
 
     defaultConfig {
-        minSdkVersion 14
+        minSdkVersion 16
         targetSdkVersion 25
         versionCode 1
         versionName "1.8.2"
